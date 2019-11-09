@@ -30,7 +30,7 @@ public class CinematicRain extends JPanel implements ActionListener {
         buildGUI();
         storePanelSize();
 
-        timer = new Timer(1000/ FPS, this);
+        timer = new Timer(1000 / FPS, this);
 
         drops = new ArrayList<>();
         for (int i = 0; i < DROP_AMOUNT; i++) {
